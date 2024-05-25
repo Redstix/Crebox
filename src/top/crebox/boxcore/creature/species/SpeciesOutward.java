@@ -1,4 +1,4 @@
-package top.crebox.boxcore.creature;
+package top.crebox.boxcore.creature.species;
 class SpeciesOutwardColor {
     int r,g,b;
 }
