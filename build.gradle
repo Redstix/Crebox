@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.crebox'
+version = '1.0-SNAPSHOT'
+sourceCompatibility = '17'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = "UTF-8"  // 设置源码编译编码
+}
