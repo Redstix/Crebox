@@ -1,7 +1,6 @@
 
 # Crebox
-[Source link](https://github.com/Redstix/Crebox/)
-by Redstix
+[Crebox](https://github.com/Redstix/Crebox/) by Redstix
 
 
 ## 介绍
